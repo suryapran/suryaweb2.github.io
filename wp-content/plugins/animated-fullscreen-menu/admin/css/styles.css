@@ -1,0 +1,14 @@
+
+.cmb2-id-animatedfsm-backgroundimage input{
+    margin-left: 0 !important;
+}
+
+.animatedfsm_pro_feature{
+    pointer-events: none;
+}
+.animatedfsm_pro_feature .cmb-td{
+    opacity: 0.4;
+}
+.animatedfsm_pro_feature p.cmb2-metabox-description{
+    color: green;
+}

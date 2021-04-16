@@ -1,0 +1,4 @@
+  /*----------------------------------------------------*/
+  /*  Mega menu script
+  /*----------------------------------------------------*/
+ jQuery(document).ready(function(e){"use strict";function s(){e(".crmm-megamenu").each(function(){var s,n;(e(this).removeClass("nl-simple"),e(this).hasClass("megamenu-containerwidth"))&&(s=(t=e(this).closest(".container")).innerWidth(),n=e(this).offset().left-t.offset().left);if(e(this).hasClass("megamenu-navbarwidth")){if(e(this).closest("header").hasClass("navbar-style2"))var t=e(this).closest(".cool-megamenu");else t=e(this).closest(".cool-megamenu .navbar-nav");s=t.innerWidth(),n=e(this).offset().left-t.offset().left}e(this).find(".dropdown-menu").css({left:-n,minWidth:s,maxWidth:s}),e(this).find(".dropdown-menu .caret").css({left:n+20})})}e(".dropdown-menu").append('<span class="caret"></span>'),e(window).on("resize",function(){e(window).width()>991?s():e(".crmm-megamenu").find(".dropdown-menu").css({})}),s()});
